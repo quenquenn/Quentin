@@ -1,0 +1,170 @@
+header {
+  background-color: #313741;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .text {
+    text-align: center;
+}
+
+header .photo img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 20px;
+  
+    
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Aleo', serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #E1D8CF;
+
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 2px;
+  color: #E1D8CF; 
+  
+}
+
+header h1 span {
+    color: #E1D8CF; 
+}
+
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+aside.colonne-gauche {
+  background-color: #E1D8CF;
+  width: 300px;
+  padding: 20px;
+
+}
+
+aside.colonne-gauche h2 {
+  background-color: #313741;
+  color:#E1D8CF;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  border: 10px solid #313741;
+  margin-top: 100px;
+  font-family: 'Aleo', serif;
+  letter-spacing: 2px;
+}
+
+aside.colonne-gauche ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+section.experience {
+  flex: auto;
+  padding: 20px;
+ 
+}
+
+section.experience h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-left: 30px ;
+  color: #E1D8CF;
+   border: 10px solid #313741;
+   border-left: 15px solid #313741;
+   background-color: #313741;
+   font-family: 'Aleo', serif;
+   letter-spacing: 2px;
+   
+  
+}
+
+section.experience ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left:  35px;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    padding: 15px;
+    color: black;
+    
+}
+
+.bordure {
+    border-left: 1px solid black;
+    
+}
+
+
+footer{
+  background-color: #313741;
+  height: 130px;
+
+}
+
+.text-footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width: 1000px){
+    section.experience {
+        width: 100%;
+        margin-left: -15px;
+        
+    }
+    
+    aside.colonne-gauche {
+        width: 100%;
+        
+    }
+    
+     section.experience h2 {
+        width: 75%;
+        
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 290px; 
+        margin-left: 25px;
+    }
+    
+    header h1 {
+        display: flex;
+        
+        
+    }
+  
+}
+
