@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+
+
+
+.flexbox {
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    height: 90px;
+     
+}
+
+
+
+.flexbox1 a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 15px;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    align-items: center;
+}
+
+.flexbox1 a:hover {
+    color: #FF5929;
+    
+    
+}
+
+.flexbox1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.flexbox2 {
+    display: flex;
+    background-color: #FF5929;
+    flex-basis: 15%;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    font-weight: 600
+    
+}
+
+
+.gauche-orange {
+    width: 50%;
+    height: 100%;
+    background-color: #FF5929;
+    
+}
+
+.gauche-orange h2 {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    
+    
+    
+}
+
+
+.section1 {
+    height: 500px;
+    
+}
+
+.droit-text {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+    
+}
+
+.droit-text p {
+    padding: 90px 250px;
+    
+}
+
+
+.row10 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comment-marche {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    margin-top: 30px;
+}
+
+
+.rectangle-gauche-noir {
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    width: 25%;
+    
+    
+}
+
+.rectangle-gauche-blanc {
+    height: 100%;
+    background-color: #fff;
+    color: black;
+    width: 25%;
+    
+}
+
+.rectangle-droit {
+    height: 100%;
+    color: black;
+    width: 25%;
+    
+}
+
+.rectangle-droit-orange {
+    height: 100%;
+    background-color: #FF5929;
+    color: black;
+    width: 25%;
+    
+}
+
+.range {
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+}
+
+
+.range p {
+    margin-top: 15%
+    
+}
+
+.row12 {
+    height: 600px;
+    background-image: linear-gradient(   rgba(0, 0, 0, 0.6),                                                                                 rgba(25, 25, 25, 0.4)
+                                    ), url(images/ho%E2%80%94%E2%80%94e-porte-carton1.jpg);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-image {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.text-image p {
+    width: 50%;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
+
+.text-image h2 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    margin-top: 15%;
+    width: 55%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.votre-devis {
+    height: 550px;
+    width: 100%;
+    background-color: #FF5929;
+}
+
+.text-devis h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
+
+.text-devis p {
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
+
+.row6 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+    
+}
+
+.row7 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    margin-top: 5%;
+    
+    
+}
+
+.demenagement-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.demenagement-row {
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.demenagement-row1 {
+    display: flex;
+    margin-bottom: 55px;
+    
+}
+
+.demenagement-row2 {
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.section-bas {
+    padding: 0px 90px;
+    
+}
+
+.demenagement-form2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+
+.demenagement-form3 {
+    display: flex;
+    flex-direction: column;
+     margin-left: 20px;
+    
+}
+
+.demenagement-form1 {
+    display: flex;
+    flex-direction: column;
+     margin-left: 20px;
+    
+}
+
+input {
+    padding: 10px;
+    
+}
+
+select {
+    padding: 10px;
+    width: 160px;
+    background-color: #fff;
+    
+    
+}
+
+.envoyer {
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ 
+    
+}
+
+footer {
+    background-color: black;
+}
+
+.row9 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+    
+}
+
+.gauche-gauche {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
+
+.droit {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+    
+}
+
+.droit-droit {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lexend+Deca','Arial', sans-serif;
+    
+}
